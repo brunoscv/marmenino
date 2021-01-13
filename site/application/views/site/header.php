@@ -44,7 +44,7 @@
   <!-- Main content -->
   <div class="main-content">
     <!-- Header -->
-    <div class="header py-7 py-lg-7 pt-lg-6"></div>
+    <div class="header py-5 py-lg-5 pt-lg-6"></div>
     <!-- Page content -->
     <div class="container mt--8">
 
