@@ -6,7 +6,7 @@ function abrev($string)
 	$s = explode(" ", $string);
 	$r = "";
 	foreach ($s as $st) {
-		$r .= $st{0};
+		$r .= $st[0];
 	}
 	return $r;
 }
@@ -315,12 +315,12 @@ function revertCamelCase($string)
 	$attr = "";
 	for ($i = 0; $i < strlen($string); $i++) {
 		if ($i == 0)
-			$string{$i} = strtolower($string{$i});
+			$string[$i] = strtolower($string[$i]);
 
-		if ($string{$i} == strtoupper($string{$i})) {
+		if ($string[$i] == strtoupper($string[$i])) {
 			$attr .= "_";
 		}
-		$attr .= $string{$i};
+		$attr .= $string[$i];
 	}
 	return $attr;
 }
