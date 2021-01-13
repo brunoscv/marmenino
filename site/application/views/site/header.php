@@ -52,7 +52,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-10">
             <div class="justify-content-center text-center">
-              <img src="<?php echo base_url(); ?>assets/img/theme/marmenino-01.png" class="navbar-brand-img" alt="">
+              <img src="<?php echo base_url(); ?>assets/img/theme/marmenino.png" class="navbar-brand-img" alt="">
             </div>
           </div>
         </div>
