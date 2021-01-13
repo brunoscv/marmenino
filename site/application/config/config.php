@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/marmenino/site';
+$config['base_url']	= 'http://dry-bayou-23868.herokuapp.com/site';
 
 /*
 |--------------------------------------------------------------------------

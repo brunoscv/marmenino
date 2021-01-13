@@ -51,9 +51,9 @@ $query_builder = TRUE;
 
 
 
-	$db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'root';
-	$db['default']['password'] = '';
+	$db['default']['hostname'] = '192.185.221.159';
+	$db['default']['username'] = 'seucan37_admin';
+	$db['default']['password'] = 'src#123CANTO';
 	$db['default']['database'] = 'seucan37_seucanto';
 	$db['default']['port'] 	   = 3307;
 	$db['default']['dbdriver'] = 'mysqli';
