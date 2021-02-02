@@ -24,7 +24,7 @@
   <style>
     .navbar-brand-img {
       width: 40%;
-      padding: 2em;
+      padding: 6rem 2rem 2rem 2rem;
     }
     .googlemap {
       height: 300px;
