@@ -33,7 +33,7 @@
     @media only screen and (max-width: 480px) {
       .navbar-brand-img {
           width: 80%;
-          padding: 5rem 2rem;
+          padding: 10rem 2rem 2rem 2rem;
       }
       .googlemap {
         height: auto;
