@@ -23,18 +23,21 @@
 
   <style>
     .navbar-brand-img {
-      width: 60%;
+      width: 40%;
+      padding: 2em;
     }
     .googlemap {
-      height: 400px;
-      width: 100%;
+      height: 300px;
+      width: 80%;
     }
     @media only screen and (max-width: 480px) {
       .navbar-brand-img {
-          width: 100%;
+          width: 80%;
+          padding: 5rem 2rem;
       }
       .googlemap {
-        height: 500px;     
+        height: auto;
+        width: 100%;    
       }
     }
   </style>
@@ -61,7 +64,7 @@
       <section class="">
         <div class="row justify-content-center text-center">
           <div class="col-md-10">
-            <div class="col-lg-12 bg-white p-0">
+            <div class="col-lg-12 bg-simple p-0">
               <iframe class="googlemap" scrolling="no" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=3hrv+mf%20Cajueiro%20da%20Praia,%20Piaui%20+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" style="border:0"></iframe>
             </div>
           </div>
@@ -70,9 +73,9 @@
 
       <section class="">
         <div class="row justify-content-center text-center">
-          <div class="col-md-10">
-            <div class="col-lg-12 bg-white p-0">
-              <p>Endereço: 3hrv+mf Cajueiro da Praia, Piaui - 64.222-000</p>
+          <div class="col-md-8">
+            <div class="col-lg-12 bg-simple p-0">
+              <p style="color: #fff !important">Endereço: 3hrv+mf Cajueiro da Praia, Piaui - 64.222-000</p>
             </div>
           </div>
         </div>
