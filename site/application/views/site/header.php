@@ -41,9 +41,28 @@
       }
     }
   </style>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    .bg {
+      /* The image used */
+      background-image: url(<?php echo base_url(); ?>assets/img/theme/fundo.png);
+
+      /* Full height */
+      height: 100%; 
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
 </head>
 
-<body class="bg-simple">
+<body class="bg">
   <!-- Main content -->
   <div class="main-content">
     <!-- Header -->
@@ -64,8 +83,8 @@
       <section class="">
         <div class="row justify-content-center text-center">
           <div class="col-md-10">
-            <div class="col-lg-12 bg-simple p-0">
-              <iframe class="googlemap" scrolling="no" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=3hrv+mf%20Cajueiro%20da%20Praia,%20Piaui%20+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" style="border:0"></iframe>
+            <div class="col-lg-12 p-0">
+              <iframe class="googlemap" scrolling="no" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=3hrv+mf%20Cajueiro%20da%20Praia,%20Piaui%20+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" style="border:0; padding:1em; background-color:#fff"></iframe>
             </div>
           </div>
         </div>
@@ -74,8 +93,8 @@
       <section class="">
         <div class="row justify-content-center text-center">
           <div class="col-md-8">
-            <div class="col-lg-12 bg-simple p-0">
-              <p style="color: #fff !important">Endereço: 3hrv+mf Cajueiro da Praia, Piaui - 64.222-000</p>
+            <div class="col-lg-12 p-0">
+              <p style="color: #000 !important">Endereço: 3hrv+mf Cajueiro da Praia, Piaui - 64.222-000</p>
             </div>
           </div>
         </div>
